@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição - Site de Aprendizado Online</title>
+    <link rel="stylesheet" href="./css/form.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="cabeca">
+        <a href="./home.html">Home</a>
+        <a href="">Sobre o curso</a>
+        <a href="">Curriculo</a>
+        <a href="">Professores</a>
+        <a href="">Depoimentos</a>
+    </div>
+
+    <div class="conteudo">
+
+    <div class="form-container">
+        <h2>Inscrição - Site de Aprendizado Online</h2>
+        <form action="/inscricao" method="POST">
+            <div class="form-group">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+            </div>
+            <div class="form-group">
+                <label for="curso">Curso de Interesse:</label>
+                <select id="curso" name="curso" required>
+                    <option value="">Selecione um curso</option>
+                    <option value="portuques">portuques</option>
+                    <option value="matematica">matematica</option>
+                    <option value="historia">historia</option>
+                    <option value="biologia">biologia</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmar-senha">Confirmar Senha:</label>
+                <input type="password" id="confirmar-senha" name="confirmar_senha" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Inscrever-se">
+            </div>
+            <div class="form-group"><!-- (((ALTERAÇÃO))) -->
+                <a href="./login.html">Já tem uma conta? Faça login</a>
+            </div>
+        </form>
+    </div>
+
+    </div>
+
+    <div class="rodape">
+        <h1>Sobre nós</h1>
+        <h1>categoria dos cursos</h1>
+        <h1>Cursos dispoiveis</h1>
+    </div>
+</div>
+</body>
+</html>
