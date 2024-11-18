@@ -35,7 +35,6 @@
 .rodape{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
     gap: 2rem;
     width: 100%;
@@ -48,6 +47,13 @@
     text-decoration: none;
     font-size: 25px;
     color: white;
+    transition: 0.3s;
+}
+
+.cabeca a:hover{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(84, 250, 84);
 }
 
 .rodape h1{
@@ -55,15 +61,35 @@
     font-size: 25px;
 }
 
+.rodape p{
+    color: white;
+}
+
 .curso{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     height: 30vh;
     width: 30vw;
     border: 1px solid rgb(238, 236, 236);
     border-radius: 0.5rem;
     background-color: rgb(179, 179, 245);
     color: white;
-    font-size: 25px;
+    font-size: 15px;
+}
+
+.curso .botao{
+    width: 150px;
+    height: 35px;
+    background-color: rgb(84, 250, 84);
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    transition: 0.3s;
+}
+
+.curso .botao:hover{
+    background-color: white;
+    border: 1px solid  rgb(84, 250, 84);
+    color:  rgb(84, 250, 84);
 }
