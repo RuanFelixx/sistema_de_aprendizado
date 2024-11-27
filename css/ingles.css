@@ -33,6 +33,7 @@
     background-color: white;
 }
 
+
 .rodape{
     display: flex;
     flex-wrap: wrap;
@@ -65,5 +66,6 @@
 .rodape p{
     color: white;
 }
+
 
 
