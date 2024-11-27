@@ -110,9 +110,8 @@
 .rodape{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 8rem;
     width: 100%;
     height: 15vh;
     background-color:  rgb(153, 153, 255);
@@ -122,4 +121,8 @@
 .rodape h1{
     color: white;
     font-size: 25px;
+}
+
+.rodape p{
+    color: white;
 }
