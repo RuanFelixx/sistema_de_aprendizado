@@ -41,7 +41,6 @@
 }
 
 
-/* Form container */
 .form-container {
     background-color: #ffffff;
     border-radius: 8px;
@@ -51,7 +50,6 @@
     box-sizing: border-box;
 }
 
-/* Título */
 .form-container h2 {
     text-align: center;
     color: #333333;
@@ -59,15 +57,14 @@
     font-size: 1.5rem;
 }
 
-/* Layout em grid */
+
 .form-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px; /* Espaçamento entre os campos */
+    gap: 15px; 
     margin-bottom: 15px;
 }
 
-/* Grupos de formulário */
 .form-group label {
     display: block;
     font-weight: bold;
@@ -84,7 +81,6 @@
     box-sizing: border-box;
 }
 
-/* Botão de envio */
 .form-group input[type="submit"] {
     background-color: rgb(153, 153, 255);
     color: white;
@@ -102,7 +98,6 @@
     background-color: rgb(128, 128, 255);;
 }
 
-/* Link para login */
 .form-group a {
     display: block;
     text-align: center;

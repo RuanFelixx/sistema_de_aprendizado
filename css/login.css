@@ -41,7 +41,7 @@
     align-items: center;
 }
 
-/* Container do formulário de login */
+
 .login-container {
     background-color: #ffffff;
     border-radius: 8px;
@@ -51,7 +51,7 @@
     box-sizing: border-box;
 }
 
-/* Título */
+
 .login-container h2 {
     text-align: center;
     color: #333333;
@@ -59,12 +59,12 @@
     font-size: 1.5rem;
 }
 
-/* Grupos de formulário */
+
 .form-group {
     margin-bottom: 15px;
 }
 
-/* Labels */
+
 .form-group label {
     display: block;
     font-weight: bold;
@@ -72,7 +72,7 @@
     color: #555555;
 }
 
-/* Campos de entrada */
+
 .form-group input[type="email"],
 .form-group input[type="password"] {
     width: 100%;
@@ -83,7 +83,7 @@
     box-sizing: border-box;
 }
 
-/* Botão de envio */
+
 .form-group input[type="submit"] {
     background-color: rgb(153, 153, 255);
     color: white;
@@ -100,7 +100,7 @@
     background-color: rgb(128, 128, 255);
 }
 
-/* Links */
+
 .form-group a {
     display: block;
     text-align: center;
