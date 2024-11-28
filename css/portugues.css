@@ -98,3 +98,15 @@
 }
 
 
+@media (max-width: 768px) {
+    .cabeca, .rodape {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodape {
+        height: auto; 
+    }
+}
+
+

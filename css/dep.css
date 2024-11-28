@@ -192,3 +192,14 @@
     background-color: #e2e2e2;
 }
 
+@media (max-width: 768px) {
+    .cabeca, .rodape {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodape {
+        height: auto; 
+    }
+}
+
