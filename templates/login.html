@@ -3,45 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina dos professores</title>
-    <link rel="stylesheet" href="./css/professores.css">
+    <title>Formulário de Inscrição - Site de Aprendizado Online</title>
+    <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
     <div class="container">
     
         <div class="cabeca">
-            <a href="./home.html">Home</a>
-            <a href="">Professores</a>
+            <a href="../home.html">Home</a>
+            <a href="professores.html">Professores</a>
             <a href="dep.html">Depoimentos</a>
         </div>
     
         <div class="conteudo">
-            <h2>Nossos Professores</h2>
-            <div class="professores">
-                <div class="professor">
-                    <img src="./img/noslen.jpg" alt="">
-                    <h3>Noslen</h3>
-                    <p>Especialização: Português</p>
+        
+        <div class="login-container">
+            <h2>Login</h2>
+            <form action="/login" method="POST">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
                 </div>
-                <div class="professor">
-                    <img src="./img/sandro.jpg" alt="">
-                    <h3>Sandro Curió</h3>
-                    <p>Especialização: Matematica</p>
+                <div class="form-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required>
                 </div>
-                <div class="professor">
-                    <img src="./img/samuel.jpg" alt="">
-                    <h3>Samuel Cunha</h3>
-                    <p>Especialização: Biologia</p>
+                <div class="form-group">
+                    <input type="submit" value="Entrar">
                 </div>
-                <div class="professor">
-                    <img src="./img/thieme.jpg" alt="">
-                    <h3>Thieme Yoshino</h3>
-                    <p>Especialização: Inglês</p>
+                <div class="form-group">
+                    <a href="./form.html">Ainda não tem uma conta? Cadastre-se</a>
                 </div>
-              
-              
-            </div>
-
+            </form>
+        </div>
+    
         </div>
     
         <div class="rodape">
